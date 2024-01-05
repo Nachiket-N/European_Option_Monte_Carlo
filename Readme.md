@@ -59,11 +59,11 @@ $ \beta = 0 $ for Vasicek model, $0.5$ for CIR model
 
 For each $j = 1,...,M$ calculate
 
-$C_{T,j} = max( 0 , S_{T,j} - K )$
+$$ C*{T,j} = max( 0 , S*{T,j} - K ) $$
 
 $and$
 
-$\hat{C} = exp(-rT) \dfrac{1}{M} \sum*{j=1}^{M} max( 0 , S*{T,j} - K ) $
+$$ \hat{C} = exp(-rT) \dfrac{1}{M} \sum*{j=1}^{M} max( 0 , S*{T,j} - K ) $$
 
 $\hat{C}$ is the desired call price
 

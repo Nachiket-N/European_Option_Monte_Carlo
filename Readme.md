@@ -35,23 +35,29 @@
 
 For this project we are focusing on just one-factor linear and non-linear Geometric Brownian Motion (GBM)
 
-1. $$ dS_t = (r-D)S_tdt + \sigma S_t dW_t \hspace{15pt} \ \left( S_t \equiv S(t) \right) $$
+1.  $$ dS_t = (r-D)S_tdt + \sigma S_t dW_t \hspace{15pt} \ \left( S_t \equiv S(t) \right) $$
 
-$ r = $ constant interest rate \
-$ D = $ constant dividend \
-$ \sigma = $ constant volatility \
-$ dW_t = $ increments of the Wiener(Brownian) process
+$$
+r = \ constant \ interest \ rate \newline
+D = \ constant \ dividend \newline
+\sigma = \ constant \ volatility \newline
+dW_t = \ increments \ of \ the \ Wiener(Brownian) \ process \newline
+$$
 
-$ \ $
+2.
 
-2. $$ dr = \kappa(\theta - r)dt + \sigma r^{\beta} dw $$
+$$ dr = \kappa(\theta - r)dt + \sigma r^{\beta} dw $$
 
-$ r = r(t) = $ level of short rate at time $t$ \
-$ dW = $ increment of a Wiener process \
-$ \theta = $ long-term level of $r$ \
-$ \kappa = $ speed of mean reversion \
-$ \sigma = $ volatility of the short rate \
-$ \beta = 0 $ for Vasicek model, $0.5$ for CIR model
+$$
+ r = r(t) =  level \ of \ short \ rate \ at \ time \ t \newline
+ dW =  increment \ of \ a \ Wiener \ process \newline
+ \theta =  long \ term \ level \ of \ r \newline
+ \kappa =  speed \ of \ mean \ reversion \newline
+ \sigma =  volatility \ of \ the \ short \ rate \newline
+ \beta = 0 \ for \ Vasicek \ model, \ 0.5 \ for \ CIR \ model \newline
+
+
+$$
 
 ###
 

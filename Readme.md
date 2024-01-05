@@ -35,7 +35,7 @@
 
 For this project, we are focusing on just one-factor linear and non-linear Geometric Brownian Motion (GBM)
 
-1.
+1. 
 
 $$ dS_t = (r-D)S_tdt + \sigma S_t dW_t \hspace{15pt} \ \left( S_t \equiv S(t) \right) $$
 
@@ -44,7 +44,7 @@ $` D = `$ constant dividend \
 $` \sigma = `$ constant volatility \
 $` dW_t = `$ increments of the Wiener(Brownian) process
 
-2.
+2. 
 
 $$ dr = \kappa(\theta - r)dt + \sigma r^{\beta} dw $$
 
@@ -55,17 +55,18 @@ $` \kappa = `$ speed of mean reversion \
 $` \sigma = `$ volatility of the short rate \
 $` \beta = 0 `$ for Vasicek model, $`0.5`$ for CIR model
 
+
 ###
 
 ### The Algorithm
 
 For each $j = 1,...,M$ calculate
 
-$$ C*{T,j} = max( 0 , S*{T,j} - K ) $$
+$$ C_{T,j} = max( 0 , S_{T,j} - K ) $$
 
 $and$
 
-$$ \hat{C} = exp(-rT) \dfrac{1}{M} \sum*{j=1}^{M} max( 0 , S*{T,j} - K ) $$
+$$ \hat{C} = exp(-rT) \dfrac{1}{M} \sum_{j=1}^{M} max( 0 , S_{T,j} - K ) $$
 
 $\hat{C}$ is the desired call price
 

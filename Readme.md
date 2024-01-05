@@ -35,7 +35,9 @@
 
 For this project we are focusing on just one-factor linear and non-linear Geometric Brownian Motion (GBM)
 
-1.  $$ dS_t = (r-D)S_tdt + \sigma S_t dW_t \hspace{15pt} \ \left( S_t \equiv S(t) \right) $$
+1. 
+
+$$ dS_t = (r-D)S_tdt + \sigma S_t dW_t \hspace{15pt} \ \left( S_t \equiv S(t) \right) $$
 
 $$
 r = \ constant \ interest \ rate \newline
@@ -44,7 +46,7 @@ D = \ constant \ dividend \newline
 dW_t = \ increments \ of \ the \ Wiener(Brownian) \ process \newline
 $$
 
-2.
+2. 
 
 $$ dr = \kappa(\theta - r)dt + \sigma r^{\beta} dw $$
 

@@ -94,7 +94,7 @@ The process can be simplified to the following steps:
 
 We start by replacing continuous time with discrete time. So, we divide the interval $[0,T]$ into a number of subintervals and define $N+1$ mesh points as follows:
 
-$ 0 = t_0 < t_1 < ... < t_N = T $
+$$ 0 = t_0 < t_1 < ... < t_N = T $$
 
 For a subinterval $(t_n, t_{n+1})$ its size is $ \Delta t_n \ , $ $ 0 \leq n \leq N-1$
 
@@ -147,7 +147,7 @@ For this project we generate the random numbers using Boost Random. And we deal 
 
 ### Standard Deviation and Standard Error of Call Option Price
 
-$ SD = \sqrt{ \dfrac{\Sigma C_{T,j}^2 - \frac{1}{M} (\Sigma C_{T,j})^2 }{M-1} } \times exp(-rT) $
+$ SD = \sqrt{ \dfrac{\Sigma C*{T,j}^2 - \frac{1}{M} (\Sigma C*{T,j})^2 }{M-1} } \times exp(-rT) $
 
 $SE = \dfrac{SD}{\sqrt{M}}$
 
